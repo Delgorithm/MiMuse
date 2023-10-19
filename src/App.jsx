@@ -1,10 +1,11 @@
 import './App.css'
+import SpotifyAuth from './components/SpotifyAuth'
 
 function App() {
 
   return (
     <div className='font-raleway'>
-      <p>aziop</p>
+      <SpotifyAuth />
     </div>
   )
 }
