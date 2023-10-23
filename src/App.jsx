@@ -1,10 +1,14 @@
 import './App.css'
-import SpotifyAuth from './components/SpotifyAuth'
+import Header from './components/Header/Header'
+import Nav from './components/Nav/Nav'
+import SpotifyAuth from './components/API/SpotifyAuth'
 
 function App() {
 
   return (
-    <div className='font-raleway'>
+    <div>
+      <Nav />
+      <Header />
       <SpotifyAuth />
     </div>
   )

@@ -11,9 +11,10 @@ export default {
         'xxsm': '370px', 
         'xxxsm': '320px',
       },
-      fontFamily: {
-        raleway: ['Raleway', 'sans-serif'],
-      },
+      colors: {
+        'blackSpotify': '#191414',
+        'greenSpotify': '#1DB954'
+      }
     },
   },
   plugins: [],
