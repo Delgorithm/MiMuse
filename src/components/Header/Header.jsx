@@ -4,7 +4,7 @@ import { CiSearch } from 'react-icons/ci'
 
 const Header = () => {
   return (
-    <div className='bg-blackSpotify text-white p-5'>
+    <div className='bg-blackSpotify text-white p-5 pt-10 h-full'>
       <p className='text-gray-400'>Service d'assistance Spotify</p>
       <p className='font-bold text-4xl pt-2'>Que pouvons-nous faire pour vous ?</p>
       <div className='flex items-center pt-10 gap-4'>

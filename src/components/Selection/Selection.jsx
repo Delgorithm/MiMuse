@@ -7,7 +7,7 @@ const Selection = () => {
     
     return (
         <div>
-            <div className='bg-blackSpotify flex'>
+            <div className='bg-blackSpotify flex h-full pb-14'>
                 <div className='m-4 flex justify-around w-full gap-5 text-white'>
                     <div className='flex flex-col gap-4 flex-1'>
                         {paiementsHelp.map((item, index) => (
@@ -43,8 +43,7 @@ const Selection = () => {
                                 <p>{item.title}</p>
                             </div>
                         ))}
-                    </div>
-                    
+                    </div> 
                 </div>
             </div>
         </div>
