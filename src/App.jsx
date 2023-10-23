@@ -3,6 +3,7 @@ import Header from './components/Header/Header'
 import Nav from './components/Nav/Nav'
 import SpotifyAuth from './components/API/SpotifyAuth'
 import Selection from './components/Selection/Selection'
+import Help from './components/Help/Help'
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
       <Nav />
       <Header />
       <Selection />
-      
+      <Help />
 
 
 
