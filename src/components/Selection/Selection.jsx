@@ -1,13 +1,36 @@
 import React from 'react'
 import selectionData from '../data/selectionData'
+import { Link } from 'react-router-dom';
+import previewData from '../data/previewData';
+import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai"
+import Category from '../Pages/Category/Category';
 
 const Selection = () => {
 
     const { paiementsHelp, comptesHelp, abonnementsHelp, appliHelp, appareilsHelp, confidentialiteHelp } = selectionData;
     
     return (
-        <div>
-            <div className='bg-blackSpotify flex h-full pb-14'>
+        <div className='bg-blackSpotify'>
+            
+            <div className='text-white text-4xl flex justify-center animate-pulse'>
+                <AiOutlineArrowDown />
+            </div>
+
+            <div className='text-white p-4 flex justify-center '>
+                <Link to='Category'>
+                    {previewData.map((item, index) => (
+                        <button key={item.id} className='cursor:pointer transition duration-400 ease-in-out text-center bg-greenSpotify p-4 rounded-xl hover:scale-105 active:opacity-60'>
+                            <p>{item.text}</p>
+                        </button>
+                    ))}
+                </Link>
+            </div>
+
+            <div className='text-white text-4xl flex justify-center animate-pulse'>
+                <AiOutlineArrowUp />
+            </div>
+
+            <div className='flex h-full pb-14'>
                 <div className='m-4 flex justify-around w-full gap-5 text-white'>
                     <div className='flex flex-col gap-4 flex-1'>
                         {paiementsHelp.map((item, index) => (

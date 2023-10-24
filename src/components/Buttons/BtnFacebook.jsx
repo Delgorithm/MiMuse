@@ -8,7 +8,7 @@ const BtnFacebook = () => {
   return (
     <a href={facebookUrl} target='_blank' rel='noopener noreferrer'>
       <button className='transition duration-200 ease-in-out hover:scale-105 p-2 bg-gray-800 rounded-full'>
-          <FaFacebookF className='text-4xl'/>
+          <FaFacebookF className='text-3xl'/>
       </button>
     </a>
   )
