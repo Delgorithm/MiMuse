@@ -6,6 +6,7 @@ import Selection from './components/Selection/Selection'
 import Help from './components/Help/Help'
 import Consultation from './components/Consultation/Consultation'
 import Links from './components/Links/Links'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -17,9 +18,10 @@ function App() {
       <Help />
       <Consultation />
       <Links />
+      <Footer />
 
 
-      <SpotifyAuth />
+      {/* <SpotifyAuth /> */}
     </div>
   )
 }

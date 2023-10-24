@@ -14,7 +14,7 @@ const BtnHamburgerMenu = () => {
     return (
         <div className="relative flex">
             <button 
-                className='text-white p-2'
+                className='text-white p-2 z-50'
                 onClick={toggleMenu}
             >
             {!isOpen ? (
@@ -32,7 +32,7 @@ const BtnHamburgerMenu = () => {
             </button>
 
             {isMenuVisible && (
-                <div className='fixed inset-x-0 top-14 bg-green-200 w-screen h-screen z-50'>
+                <div className='fixed inset-x-0 top-0 bg-green-500 h-full z-20'>
                     <p>test</p>
                 </div>
             )}

@@ -10,7 +10,7 @@ const Links = () => {
     <div className='bg-blackSpotify flex flex-col gap-7 p-4'>
 
       <picture>
-        <img src="public/img/Spotify_Logo_RGB_White.png" alt="Spotify's logo" className='w-32'/>
+        <img src="/img/Spotify_Logo_RGB_White.png" alt="Spotify's logo" className='w-32'/>
       </picture>
 
         {societyHelp.map((item, index) => (
